@@ -1,2 +1,2 @@
 # ITSJADE
-Registration Form
+Online Registration Form
