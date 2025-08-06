@@ -26,8 +26,24 @@
 
             <hr>
 
-            <label><input type="radio" name="infoType"> Program</label>
-            <label><input type="radio" name="infoType"> Year Level</label>
+ <label>Program</label>
+        <br>
+        <select id="program" name="program" required>
+            <option value="IT">Information Technology</option>
+            <option value="EE">Electrical Engineering</option>
+            <option value="CE">Civil Engineering</option>
+            <option value="ME">Mechanical Engineering</option>
+            </select>
+        <br>
+        <label>Year Level</label>
+        <br>
+        <select id="yearlevel" name="yearlevel" required>
+            <option value="1year">1st Year</option>
+            <option value="2year"> 2nd Year</option>
+            <option value="3year">3rd Year</option>
+            <option value="4year">4th Year</option>
+        </select>
+        <br>
 
             <label><input type="checkbox" required> I accept the <a href="#">terms and conditions</a></label>
 
